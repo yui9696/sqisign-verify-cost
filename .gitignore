@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# pytest / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# local reference build / adapters (never committed; see NOTICE)
+oracle/*_lvl*
+!oracle/*.c
+the-sqisign/
+*.rsp
+*.req
+
+# editors / OS
+.DS_Store
+*.swp

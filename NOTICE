@@ -1,0 +1,32 @@
+sqisign-verify-cost
+Copyright (c) 2026 Moe Tabei
+Licensed under the MIT License (see LICENSE).
+
+This project measures a resource-cost property of the SQIsign reference
+implementation. It contains NO cryptographic code of its own and vendors no
+upstream source. It drives an external verify-timing adapter and, to build
+that adapter and to obtain honest test vectors, refers to the upstream project:
+
+  Upstream: The SQIsign team, "SQIsign" reference implementation
+  Commit:   dd133d7aca576c361a270c8e6434832535b42ecc
+  License:  Apache License 2.0 (portions LGPL, see upstream COPYING.LGPL)
+  URL:      https://github.com/SQIsign/the-sqisign
+
+Test vectors (Known Answer Test .rsp files) used to obtain honest, verifying
+signatures are produced by that upstream project. The results committed in
+this repository were derived by measuring against an adapter built from that
+commit. The relevant KAT files and their SHA-256 digests (as measured this
+session) are:
+
+  PQCsignKAT_353_SQIsign_lvl1.rsp
+    03898a4b415c0fd038137b1e5716be07ea7641622161aef0777035a96fc9bba8
+  PQCsignKAT_529_SQIsign_lvl3.rsp
+    073b6fa0e7792267965306f8cccded420b9c2d4719d49295d31041c194fd9526
+  PQCsignKAT_701_SQIsign_lvl5.rsp
+    2509ecc191791385968a36db50d8479c87d3e1b8bd655150f927f1f5613f2546
+
+No KAT files, upstream source, or cryptographic key material are redistributed
+in this repository. Only measurement results (timings and amplification
+factors) derived from them are committed.
+
+The classical-signature baselines were measured with OpenSSL 3.6.3 (9 Jun 2026).
