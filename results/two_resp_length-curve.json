@@ -1,0 +1,3873 @@
+{
+  "_meta": {
+    "machine": "Darwin-25.1.0-arm64-arm-64bit-Mach-O",
+    "python": "3.14.7",
+    "openssl": "OpenSSL 3.6.3 9 Jun 2026",
+    "reference_commit": "dd133d7",
+    "timestamp_utc": "2026-08-31T22:03:47Z"
+  },
+  "levels": {
+    "L1": {
+      "signature_index": 0,
+      "honest_value": 1,
+      "ceiling_value": 126,
+      "samples": [
+        {
+          "value": 0,
+          "accept": false,
+          "cost_ns": 1393000.0
+        },
+        {
+          "value": 1,
+          "accept": true,
+          "cost_ns": 2434000.0
+        },
+        {
+          "value": 2,
+          "accept": false,
+          "cost_ns": 1391000.0
+        },
+        {
+          "value": 3,
+          "accept": false,
+          "cost_ns": 1388000.0
+        },
+        {
+          "value": 4,
+          "accept": false,
+          "cost_ns": 1438000.0
+        },
+        {
+          "value": 5,
+          "accept": false,
+          "cost_ns": 1392000.0
+        },
+        {
+          "value": 6,
+          "accept": false,
+          "cost_ns": 1428000.0
+        },
+        {
+          "value": 7,
+          "accept": false,
+          "cost_ns": 1436000.0
+        },
+        {
+          "value": 8,
+          "accept": false,
+          "cost_ns": 1433000.0
+        },
+        {
+          "value": 9,
+          "accept": false,
+          "cost_ns": 1410000.0
+        },
+        {
+          "value": 10,
+          "accept": false,
+          "cost_ns": 1436000.0
+        },
+        {
+          "value": 11,
+          "accept": false,
+          "cost_ns": 1439000.0
+        },
+        {
+          "value": 12,
+          "accept": false,
+          "cost_ns": 1402000.0
+        },
+        {
+          "value": 13,
+          "accept": false,
+          "cost_ns": 1448000.0
+        },
+        {
+          "value": 14,
+          "accept": false,
+          "cost_ns": 1455000.0
+        },
+        {
+          "value": 15,
+          "accept": false,
+          "cost_ns": 1454000.0
+        },
+        {
+          "value": 16,
+          "accept": false,
+          "cost_ns": 1442000.0
+        },
+        {
+          "value": 17,
+          "accept": false,
+          "cost_ns": 1448000.0
+        },
+        {
+          "value": 18,
+          "accept": false,
+          "cost_ns": 1470000.0
+        },
+        {
+          "value": 19,
+          "accept": false,
+          "cost_ns": 1433000.0
+        },
+        {
+          "value": 20,
+          "accept": false,
+          "cost_ns": 1460000.0
+        },
+        {
+          "value": 21,
+          "accept": false,
+          "cost_ns": 1449000.0
+        },
+        {
+          "value": 22,
+          "accept": false,
+          "cost_ns": 1489000.0
+        },
+        {
+          "value": 23,
+          "accept": false,
+          "cost_ns": 1456000.0
+        },
+        {
+          "value": 24,
+          "accept": false,
+          "cost_ns": 1464000.0
+        },
+        {
+          "value": 25,
+          "accept": false,
+          "cost_ns": 1482000.0
+        },
+        {
+          "value": 26,
+          "accept": false,
+          "cost_ns": 1509000.0
+        },
+        {
+          "value": 27,
+          "accept": false,
+          "cost_ns": 1498000.0
+        },
+        {
+          "value": 28,
+          "accept": false,
+          "cost_ns": 1533000.0
+        },
+        {
+          "value": 29,
+          "accept": false,
+          "cost_ns": 1498000.0
+        },
+        {
+          "value": 30,
+          "accept": false,
+          "cost_ns": 1530000.0
+        },
+        {
+          "value": 31,
+          "accept": false,
+          "cost_ns": 1527000.0
+        },
+        {
+          "value": 32,
+          "accept": false,
+          "cost_ns": 1536000.0
+        },
+        {
+          "value": 33,
+          "accept": false,
+          "cost_ns": 1596000.0
+        },
+        {
+          "value": 34,
+          "accept": false,
+          "cost_ns": 1593000.0
+        },
+        {
+          "value": 35,
+          "accept": false,
+          "cost_ns": 1598000.0
+        },
+        {
+          "value": 36,
+          "accept": false,
+          "cost_ns": 1605000.0
+        },
+        {
+          "value": 37,
+          "accept": false,
+          "cost_ns": 1619000.0
+        },
+        {
+          "value": 38,
+          "accept": false,
+          "cost_ns": 1626000.0
+        },
+        {
+          "value": 39,
+          "accept": false,
+          "cost_ns": 1641000.0
+        },
+        {
+          "value": 40,
+          "accept": false,
+          "cost_ns": 1654000.0
+        },
+        {
+          "value": 41,
+          "accept": false,
+          "cost_ns": 1697000.0
+        },
+        {
+          "value": 42,
+          "accept": false,
+          "cost_ns": 1627000.0
+        },
+        {
+          "value": 43,
+          "accept": false,
+          "cost_ns": 1643000.0
+        },
+        {
+          "value": 44,
+          "accept": false,
+          "cost_ns": 1672000.0
+        },
+        {
+          "value": 45,
+          "accept": false,
+          "cost_ns": 1712000.0
+        },
+        {
+          "value": 46,
+          "accept": false,
+          "cost_ns": 1716000.0
+        },
+        {
+          "value": 47,
+          "accept": false,
+          "cost_ns": 1746000.0
+        },
+        {
+          "value": 48,
+          "accept": false,
+          "cost_ns": 1719000.0
+        },
+        {
+          "value": 49,
+          "accept": false,
+          "cost_ns": 1721000.0
+        },
+        {
+          "value": 50,
+          "accept": false,
+          "cost_ns": 1789000.0
+        },
+        {
+          "value": 51,
+          "accept": false,
+          "cost_ns": 1796000.0
+        },
+        {
+          "value": 52,
+          "accept": false,
+          "cost_ns": 1813000.0
+        },
+        {
+          "value": 53,
+          "accept": false,
+          "cost_ns": 1827000.0
+        },
+        {
+          "value": 54,
+          "accept": false,
+          "cost_ns": 1844000.0
+        },
+        {
+          "value": 55,
+          "accept": false,
+          "cost_ns": 1806000.0
+        },
+        {
+          "value": 56,
+          "accept": false,
+          "cost_ns": 1877000.0
+        },
+        {
+          "value": 57,
+          "accept": false,
+          "cost_ns": 1892000.0
+        },
+        {
+          "value": 58,
+          "accept": false,
+          "cost_ns": 1858000.0
+        },
+        {
+          "value": 59,
+          "accept": false,
+          "cost_ns": 1929000.0
+        },
+        {
+          "value": 60,
+          "accept": false,
+          "cost_ns": 1941000.0
+        },
+        {
+          "value": 61,
+          "accept": false,
+          "cost_ns": 1909000.0
+        },
+        {
+          "value": 62,
+          "accept": false,
+          "cost_ns": 1981000.0
+        },
+        {
+          "value": 63,
+          "accept": false,
+          "cost_ns": 1960000.0
+        },
+        {
+          "value": 64,
+          "accept": false,
+          "cost_ns": 1978000.0
+        },
+        {
+          "value": 65,
+          "accept": false,
+          "cost_ns": 1980000.0
+        },
+        {
+          "value": 66,
+          "accept": false,
+          "cost_ns": 1998000.0
+        },
+        {
+          "value": 67,
+          "accept": false,
+          "cost_ns": 2074000.0
+        },
+        {
+          "value": 68,
+          "accept": false,
+          "cost_ns": 2055000.0
+        },
+        {
+          "value": 69,
+          "accept": false,
+          "cost_ns": 2057000.0
+        },
+        {
+          "value": 70,
+          "accept": false,
+          "cost_ns": 2131000.0
+        },
+        {
+          "value": 71,
+          "accept": false,
+          "cost_ns": 2155000.0
+        },
+        {
+          "value": 72,
+          "accept": false,
+          "cost_ns": 2176000.0
+        },
+        {
+          "value": 73,
+          "accept": false,
+          "cost_ns": 2217000.0
+        },
+        {
+          "value": 74,
+          "accept": false,
+          "cost_ns": 2218000.0
+        },
+        {
+          "value": 75,
+          "accept": false,
+          "cost_ns": 2241000.0
+        },
+        {
+          "value": 76,
+          "accept": false,
+          "cost_ns": 2263000.0
+        },
+        {
+          "value": 77,
+          "accept": false,
+          "cost_ns": 2223000.0
+        },
+        {
+          "value": 78,
+          "accept": false,
+          "cost_ns": 2246000.0
+        },
+        {
+          "value": 79,
+          "accept": false,
+          "cost_ns": 2281000.0
+        },
+        {
+          "value": 80,
+          "accept": false,
+          "cost_ns": 2298000.0
+        },
+        {
+          "value": 81,
+          "accept": false,
+          "cost_ns": 2315000.0
+        },
+        {
+          "value": 82,
+          "accept": false,
+          "cost_ns": 2375000.0
+        },
+        {
+          "value": 83,
+          "accept": false,
+          "cost_ns": 2426000.0
+        },
+        {
+          "value": 84,
+          "accept": false,
+          "cost_ns": 2393000.0
+        },
+        {
+          "value": 85,
+          "accept": false,
+          "cost_ns": 2479000.0
+        },
+        {
+          "value": 86,
+          "accept": false,
+          "cost_ns": 2501000.0
+        },
+        {
+          "value": 87,
+          "accept": false,
+          "cost_ns": 2549000.0
+        },
+        {
+          "value": 88,
+          "accept": false,
+          "cost_ns": 2481000.0
+        },
+        {
+          "value": 89,
+          "accept": false,
+          "cost_ns": 2506000.0
+        },
+        {
+          "value": 90,
+          "accept": false,
+          "cost_ns": 2596000.0
+        },
+        {
+          "value": 91,
+          "accept": false,
+          "cost_ns": 2585000.0
+        },
+        {
+          "value": 92,
+          "accept": false,
+          "cost_ns": 2674000.0
+        },
+        {
+          "value": 93,
+          "accept": false,
+          "cost_ns": 2687000.0
+        },
+        {
+          "value": 94,
+          "accept": false,
+          "cost_ns": 2687000.0
+        },
+        {
+          "value": 95,
+          "accept": false,
+          "cost_ns": 2696000.0
+        },
+        {
+          "value": 96,
+          "accept": false,
+          "cost_ns": 2773000.0
+        },
+        {
+          "value": 97,
+          "accept": false,
+          "cost_ns": 2792000.0
+        },
+        {
+          "value": 98,
+          "accept": false,
+          "cost_ns": 2787000.0
+        },
+        {
+          "value": 99,
+          "accept": false,
+          "cost_ns": 2876000.0
+        },
+        {
+          "value": 100,
+          "accept": false,
+          "cost_ns": 2851000.0
+        },
+        {
+          "value": 101,
+          "accept": false,
+          "cost_ns": 2854000.0
+        },
+        {
+          "value": 102,
+          "accept": false,
+          "cost_ns": 2868000.0
+        },
+        {
+          "value": 103,
+          "accept": false,
+          "cost_ns": 2973000.0
+        },
+        {
+          "value": 104,
+          "accept": false,
+          "cost_ns": 2986000.0
+        },
+        {
+          "value": 105,
+          "accept": false,
+          "cost_ns": 2981000.0
+        },
+        {
+          "value": 106,
+          "accept": false,
+          "cost_ns": 2983000.0
+        },
+        {
+          "value": 107,
+          "accept": false,
+          "cost_ns": 3080000.0
+        },
+        {
+          "value": 108,
+          "accept": false,
+          "cost_ns": 3066000.0
+        },
+        {
+          "value": 109,
+          "accept": false,
+          "cost_ns": 3097000.0
+        },
+        {
+          "value": 110,
+          "accept": false,
+          "cost_ns": 3218000.0
+        },
+        {
+          "value": 111,
+          "accept": false,
+          "cost_ns": 3162000.0
+        },
+        {
+          "value": 112,
+          "accept": false,
+          "cost_ns": 3271000.0
+        },
+        {
+          "value": 113,
+          "accept": false,
+          "cost_ns": 3296000.0
+        },
+        {
+          "value": 114,
+          "accept": false,
+          "cost_ns": 3284000.0
+        },
+        {
+          "value": 115,
+          "accept": false,
+          "cost_ns": 3414000.0
+        },
+        {
+          "value": 116,
+          "accept": false,
+          "cost_ns": 3409000.0
+        },
+        {
+          "value": 117,
+          "accept": false,
+          "cost_ns": 3374000.0
+        },
+        {
+          "value": 118,
+          "accept": false,
+          "cost_ns": 3386000.0
+        },
+        {
+          "value": 119,
+          "accept": false,
+          "cost_ns": 3406000.0
+        },
+        {
+          "value": 120,
+          "accept": false,
+          "cost_ns": 3440000.0
+        },
+        {
+          "value": 121,
+          "accept": false,
+          "cost_ns": 3539000.0
+        },
+        {
+          "value": 122,
+          "accept": false,
+          "cost_ns": 3513000.0
+        },
+        {
+          "value": 123,
+          "accept": false,
+          "cost_ns": 3603000.0
+        },
+        {
+          "value": 124,
+          "accept": false,
+          "cost_ns": 3599000.0
+        },
+        {
+          "value": 125,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 126,
+          "accept": false,
+          "cost_ns": 3650000.0
+        },
+        {
+          "value": 127,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 128,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 129,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 130,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 131,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 132,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 133,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 134,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 135,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 136,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 137,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 138,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 139,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 140,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 141,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 142,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 143,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 144,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 145,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 146,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 147,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 148,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 149,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 150,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 151,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 152,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 153,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 154,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 155,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 156,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 157,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 158,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 159,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 160,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 161,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 162,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 163,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 164,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 165,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 166,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 167,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 168,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 169,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 170,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 171,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 172,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 173,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 174,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 175,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 176,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 177,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 178,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 179,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 180,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 181,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 182,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 183,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 184,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 185,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 186,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 187,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 188,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 189,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 190,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 191,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 192,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 193,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 194,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 195,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 196,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 197,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 198,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 199,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 200,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 201,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 202,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 203,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 204,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 205,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 206,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 207,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 208,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 209,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 210,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 211,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 212,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 213,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 214,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 215,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 216,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 217,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 218,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 219,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 220,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 221,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 222,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 223,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 224,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 225,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 226,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 227,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 228,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 229,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 230,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 231,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 232,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 233,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 234,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 235,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 236,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 237,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 238,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 239,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 240,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 241,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 242,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 243,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 244,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 245,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 246,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 247,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 248,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 249,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 250,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 251,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 252,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 253,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 254,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 255,
+          "accept": false,
+          "cost_ns": 0.0
+        }
+      ]
+    },
+    "L3": {
+      "signature_index": 0,
+      "honest_value": 4,
+      "ceiling_value": 192,
+      "samples": [
+        {
+          "value": 0,
+          "accept": false,
+          "cost_ns": 3867000.0
+        },
+        {
+          "value": 1,
+          "accept": false,
+          "cost_ns": 3920000.0
+        },
+        {
+          "value": 2,
+          "accept": false,
+          "cost_ns": 3930000.0
+        },
+        {
+          "value": 3,
+          "accept": false,
+          "cost_ns": 3951000.0
+        },
+        {
+          "value": 4,
+          "accept": true,
+          "cost_ns": 7174000.0
+        },
+        {
+          "value": 5,
+          "accept": false,
+          "cost_ns": 3912000.0
+        },
+        {
+          "value": 6,
+          "accept": false,
+          "cost_ns": 3905000.0
+        },
+        {
+          "value": 7,
+          "accept": false,
+          "cost_ns": 3929000.0
+        },
+        {
+          "value": 8,
+          "accept": false,
+          "cost_ns": 3909000.0
+        },
+        {
+          "value": 9,
+          "accept": false,
+          "cost_ns": 3998000.0
+        },
+        {
+          "value": 10,
+          "accept": false,
+          "cost_ns": 3955000.0
+        },
+        {
+          "value": 11,
+          "accept": false,
+          "cost_ns": 3943000.0
+        },
+        {
+          "value": 12,
+          "accept": false,
+          "cost_ns": 3940000.0
+        },
+        {
+          "value": 13,
+          "accept": false,
+          "cost_ns": 3927000.0
+        },
+        {
+          "value": 14,
+          "accept": false,
+          "cost_ns": 3972000.0
+        },
+        {
+          "value": 15,
+          "accept": false,
+          "cost_ns": 3982000.0
+        },
+        {
+          "value": 16,
+          "accept": false,
+          "cost_ns": 3955000.0
+        },
+        {
+          "value": 17,
+          "accept": false,
+          "cost_ns": 3966000.0
+        },
+        {
+          "value": 18,
+          "accept": false,
+          "cost_ns": 3971000.0
+        },
+        {
+          "value": 19,
+          "accept": false,
+          "cost_ns": 3987000.0
+        },
+        {
+          "value": 20,
+          "accept": false,
+          "cost_ns": 4147000.0
+        },
+        {
+          "value": 21,
+          "accept": false,
+          "cost_ns": 3988000.0
+        },
+        {
+          "value": 22,
+          "accept": false,
+          "cost_ns": 4023000.0
+        },
+        {
+          "value": 23,
+          "accept": false,
+          "cost_ns": 4005000.0
+        },
+        {
+          "value": 24,
+          "accept": false,
+          "cost_ns": 4043000.0
+        },
+        {
+          "value": 25,
+          "accept": false,
+          "cost_ns": 4060000.0
+        },
+        {
+          "value": 26,
+          "accept": false,
+          "cost_ns": 4126000.0
+        },
+        {
+          "value": 27,
+          "accept": false,
+          "cost_ns": 4050000.0
+        },
+        {
+          "value": 28,
+          "accept": false,
+          "cost_ns": 4065000.0
+        },
+        {
+          "value": 29,
+          "accept": false,
+          "cost_ns": 4139000.0
+        },
+        {
+          "value": 30,
+          "accept": false,
+          "cost_ns": 4173000.0
+        },
+        {
+          "value": 31,
+          "accept": false,
+          "cost_ns": 4120000.0
+        },
+        {
+          "value": 32,
+          "accept": false,
+          "cost_ns": 4148000.0
+        },
+        {
+          "value": 33,
+          "accept": false,
+          "cost_ns": 4155000.0
+        },
+        {
+          "value": 34,
+          "accept": false,
+          "cost_ns": 4191000.0
+        },
+        {
+          "value": 35,
+          "accept": false,
+          "cost_ns": 4200000.0
+        },
+        {
+          "value": 36,
+          "accept": false,
+          "cost_ns": 4212000.0
+        },
+        {
+          "value": 37,
+          "accept": false,
+          "cost_ns": 4259000.0
+        },
+        {
+          "value": 38,
+          "accept": false,
+          "cost_ns": 4241000.0
+        },
+        {
+          "value": 39,
+          "accept": false,
+          "cost_ns": 4255000.0
+        },
+        {
+          "value": 40,
+          "accept": false,
+          "cost_ns": 4291000.0
+        },
+        {
+          "value": 41,
+          "accept": false,
+          "cost_ns": 4280000.0
+        },
+        {
+          "value": 42,
+          "accept": false,
+          "cost_ns": 4291000.0
+        },
+        {
+          "value": 43,
+          "accept": false,
+          "cost_ns": 4363000.0
+        },
+        {
+          "value": 44,
+          "accept": false,
+          "cost_ns": 4390000.0
+        },
+        {
+          "value": 45,
+          "accept": false,
+          "cost_ns": 4404000.0
+        },
+        {
+          "value": 46,
+          "accept": false,
+          "cost_ns": 4415000.0
+        },
+        {
+          "value": 47,
+          "accept": false,
+          "cost_ns": 4421000.0
+        },
+        {
+          "value": 48,
+          "accept": false,
+          "cost_ns": 4481000.0
+        },
+        {
+          "value": 49,
+          "accept": false,
+          "cost_ns": 4458000.0
+        },
+        {
+          "value": 50,
+          "accept": false,
+          "cost_ns": 4521000.0
+        },
+        {
+          "value": 51,
+          "accept": false,
+          "cost_ns": 4522000.0
+        },
+        {
+          "value": 52,
+          "accept": false,
+          "cost_ns": 4562000.0
+        },
+        {
+          "value": 53,
+          "accept": false,
+          "cost_ns": 4576000.0
+        },
+        {
+          "value": 54,
+          "accept": false,
+          "cost_ns": 4592000.0
+        },
+        {
+          "value": 55,
+          "accept": false,
+          "cost_ns": 4605000.0
+        },
+        {
+          "value": 56,
+          "accept": false,
+          "cost_ns": 4640000.0
+        },
+        {
+          "value": 57,
+          "accept": false,
+          "cost_ns": 4656000.0
+        },
+        {
+          "value": 58,
+          "accept": false,
+          "cost_ns": 4691000.0
+        },
+        {
+          "value": 59,
+          "accept": false,
+          "cost_ns": 4748000.0
+        },
+        {
+          "value": 60,
+          "accept": false,
+          "cost_ns": 4793000.0
+        },
+        {
+          "value": 61,
+          "accept": false,
+          "cost_ns": 4809000.0
+        },
+        {
+          "value": 62,
+          "accept": false,
+          "cost_ns": 4801000.0
+        },
+        {
+          "value": 63,
+          "accept": false,
+          "cost_ns": 4831000.0
+        },
+        {
+          "value": 64,
+          "accept": false,
+          "cost_ns": 4856000.0
+        },
+        {
+          "value": 65,
+          "accept": false,
+          "cost_ns": 4904000.0
+        },
+        {
+          "value": 66,
+          "accept": false,
+          "cost_ns": 4894000.0
+        },
+        {
+          "value": 67,
+          "accept": false,
+          "cost_ns": 4954000.0
+        },
+        {
+          "value": 68,
+          "accept": false,
+          "cost_ns": 4994000.0
+        },
+        {
+          "value": 69,
+          "accept": false,
+          "cost_ns": 5023000.0
+        },
+        {
+          "value": 70,
+          "accept": false,
+          "cost_ns": 5028000.0
+        },
+        {
+          "value": 71,
+          "accept": false,
+          "cost_ns": 5142000.0
+        },
+        {
+          "value": 72,
+          "accept": false,
+          "cost_ns": 5128000.0
+        },
+        {
+          "value": 73,
+          "accept": false,
+          "cost_ns": 5185000.0
+        },
+        {
+          "value": 74,
+          "accept": false,
+          "cost_ns": 5164000.0
+        },
+        {
+          "value": 75,
+          "accept": false,
+          "cost_ns": 5215000.0
+        },
+        {
+          "value": 76,
+          "accept": false,
+          "cost_ns": 5257000.0
+        },
+        {
+          "value": 77,
+          "accept": false,
+          "cost_ns": 5370000.0
+        },
+        {
+          "value": 78,
+          "accept": false,
+          "cost_ns": 5357000.0
+        },
+        {
+          "value": 79,
+          "accept": false,
+          "cost_ns": 5375000.0
+        },
+        {
+          "value": 80,
+          "accept": false,
+          "cost_ns": 5433000.0
+        },
+        {
+          "value": 81,
+          "accept": false,
+          "cost_ns": 5471000.0
+        },
+        {
+          "value": 82,
+          "accept": false,
+          "cost_ns": 5496000.0
+        },
+        {
+          "value": 83,
+          "accept": false,
+          "cost_ns": 5529000.0
+        },
+        {
+          "value": 84,
+          "accept": false,
+          "cost_ns": 5586000.0
+        },
+        {
+          "value": 85,
+          "accept": false,
+          "cost_ns": 5637000.0
+        },
+        {
+          "value": 86,
+          "accept": false,
+          "cost_ns": 5664000.0
+        },
+        {
+          "value": 87,
+          "accept": false,
+          "cost_ns": 5765000.0
+        },
+        {
+          "value": 88,
+          "accept": false,
+          "cost_ns": 5752000.0
+        },
+        {
+          "value": 89,
+          "accept": false,
+          "cost_ns": 5767000.0
+        },
+        {
+          "value": 90,
+          "accept": false,
+          "cost_ns": 5825000.0
+        },
+        {
+          "value": 91,
+          "accept": false,
+          "cost_ns": 5848000.0
+        },
+        {
+          "value": 92,
+          "accept": false,
+          "cost_ns": 5943000.0
+        },
+        {
+          "value": 93,
+          "accept": false,
+          "cost_ns": 6025000.0
+        },
+        {
+          "value": 94,
+          "accept": false,
+          "cost_ns": 6055000.0
+        },
+        {
+          "value": 95,
+          "accept": false,
+          "cost_ns": 6059000.0
+        },
+        {
+          "value": 96,
+          "accept": false,
+          "cost_ns": 6108000.0
+        },
+        {
+          "value": 97,
+          "accept": false,
+          "cost_ns": 6199000.0
+        },
+        {
+          "value": 98,
+          "accept": false,
+          "cost_ns": 6193000.0
+        },
+        {
+          "value": 99,
+          "accept": false,
+          "cost_ns": 6282000.0
+        },
+        {
+          "value": 100,
+          "accept": false,
+          "cost_ns": 6347000.0
+        },
+        {
+          "value": 101,
+          "accept": false,
+          "cost_ns": 6350000.0
+        },
+        {
+          "value": 102,
+          "accept": false,
+          "cost_ns": 6394000.0
+        },
+        {
+          "value": 103,
+          "accept": false,
+          "cost_ns": 6441000.0
+        },
+        {
+          "value": 104,
+          "accept": false,
+          "cost_ns": 6510000.0
+        },
+        {
+          "value": 105,
+          "accept": false,
+          "cost_ns": 6588000.0
+        },
+        {
+          "value": 106,
+          "accept": false,
+          "cost_ns": 6654000.0
+        },
+        {
+          "value": 107,
+          "accept": false,
+          "cost_ns": 6654000.0
+        },
+        {
+          "value": 108,
+          "accept": false,
+          "cost_ns": 6716000.0
+        },
+        {
+          "value": 109,
+          "accept": false,
+          "cost_ns": 6814000.0
+        },
+        {
+          "value": 110,
+          "accept": false,
+          "cost_ns": 6791000.0
+        },
+        {
+          "value": 111,
+          "accept": false,
+          "cost_ns": 6938000.0
+        },
+        {
+          "value": 112,
+          "accept": false,
+          "cost_ns": 6947000.0
+        },
+        {
+          "value": 113,
+          "accept": false,
+          "cost_ns": 7009000.0
+        },
+        {
+          "value": 114,
+          "accept": false,
+          "cost_ns": 7109000.0
+        },
+        {
+          "value": 115,
+          "accept": false,
+          "cost_ns": 7113000.0
+        },
+        {
+          "value": 116,
+          "accept": false,
+          "cost_ns": 7238000.0
+        },
+        {
+          "value": 117,
+          "accept": false,
+          "cost_ns": 7307000.0
+        },
+        {
+          "value": 118,
+          "accept": false,
+          "cost_ns": 7264000.0
+        },
+        {
+          "value": 119,
+          "accept": false,
+          "cost_ns": 7368000.0
+        },
+        {
+          "value": 120,
+          "accept": false,
+          "cost_ns": 7387000.0
+        },
+        {
+          "value": 121,
+          "accept": false,
+          "cost_ns": 7514000.0
+        },
+        {
+          "value": 122,
+          "accept": false,
+          "cost_ns": 7574000.0
+        },
+        {
+          "value": 123,
+          "accept": false,
+          "cost_ns": 7555000.0
+        },
+        {
+          "value": 124,
+          "accept": false,
+          "cost_ns": 7671000.0
+        },
+        {
+          "value": 125,
+          "accept": false,
+          "cost_ns": 7898000.0
+        },
+        {
+          "value": 126,
+          "accept": false,
+          "cost_ns": 7774000.0
+        },
+        {
+          "value": 127,
+          "accept": false,
+          "cost_ns": 7843000.0
+        },
+        {
+          "value": 128,
+          "accept": false,
+          "cost_ns": 7952000.0
+        },
+        {
+          "value": 129,
+          "accept": false,
+          "cost_ns": 7915000.0
+        },
+        {
+          "value": 130,
+          "accept": false,
+          "cost_ns": 8118000.0
+        },
+        {
+          "value": 131,
+          "accept": false,
+          "cost_ns": 8162000.0
+        },
+        {
+          "value": 132,
+          "accept": false,
+          "cost_ns": 8223000.0
+        },
+        {
+          "value": 133,
+          "accept": false,
+          "cost_ns": 8270000.0
+        },
+        {
+          "value": 134,
+          "accept": false,
+          "cost_ns": 8357000.0
+        },
+        {
+          "value": 135,
+          "accept": false,
+          "cost_ns": 8416000.0
+        },
+        {
+          "value": 136,
+          "accept": false,
+          "cost_ns": 8444000.0
+        },
+        {
+          "value": 137,
+          "accept": false,
+          "cost_ns": 8510000.0
+        },
+        {
+          "value": 138,
+          "accept": false,
+          "cost_ns": 8606000.0
+        },
+        {
+          "value": 139,
+          "accept": false,
+          "cost_ns": 8672000.0
+        },
+        {
+          "value": 140,
+          "accept": false,
+          "cost_ns": 8743000.0
+        },
+        {
+          "value": 141,
+          "accept": false,
+          "cost_ns": 8902000.0
+        },
+        {
+          "value": 142,
+          "accept": false,
+          "cost_ns": 8923000.0
+        },
+        {
+          "value": 143,
+          "accept": false,
+          "cost_ns": 9046000.0
+        },
+        {
+          "value": 144,
+          "accept": false,
+          "cost_ns": 9023000.0
+        },
+        {
+          "value": 145,
+          "accept": false,
+          "cost_ns": 9038000.0
+        },
+        {
+          "value": 146,
+          "accept": false,
+          "cost_ns": 9191000.0
+        },
+        {
+          "value": 147,
+          "accept": false,
+          "cost_ns": 9239000.0
+        },
+        {
+          "value": 148,
+          "accept": false,
+          "cost_ns": 9310000.0
+        },
+        {
+          "value": 149,
+          "accept": false,
+          "cost_ns": 9380000.0
+        },
+        {
+          "value": 150,
+          "accept": false,
+          "cost_ns": 9425000.0
+        },
+        {
+          "value": 151,
+          "accept": false,
+          "cost_ns": 9530000.0
+        },
+        {
+          "value": 152,
+          "accept": false,
+          "cost_ns": 9570000.0
+        },
+        {
+          "value": 153,
+          "accept": false,
+          "cost_ns": 9729000.0
+        },
+        {
+          "value": 154,
+          "accept": false,
+          "cost_ns": 9794000.0
+        },
+        {
+          "value": 155,
+          "accept": false,
+          "cost_ns": 9862000.0
+        },
+        {
+          "value": 156,
+          "accept": false,
+          "cost_ns": 9957000.0
+        },
+        {
+          "value": 157,
+          "accept": false,
+          "cost_ns": 9943000.0
+        },
+        {
+          "value": 158,
+          "accept": false,
+          "cost_ns": 10014000.0
+        },
+        {
+          "value": 159,
+          "accept": false,
+          "cost_ns": 10216000.0
+        },
+        {
+          "value": 160,
+          "accept": false,
+          "cost_ns": 10369000.0
+        },
+        {
+          "value": 161,
+          "accept": false,
+          "cost_ns": 10352000.0
+        },
+        {
+          "value": 162,
+          "accept": false,
+          "cost_ns": 10567000.0
+        },
+        {
+          "value": 163,
+          "accept": false,
+          "cost_ns": 10497000.0
+        },
+        {
+          "value": 164,
+          "accept": false,
+          "cost_ns": 10550000.0
+        },
+        {
+          "value": 165,
+          "accept": false,
+          "cost_ns": 10629000.0
+        },
+        {
+          "value": 166,
+          "accept": false,
+          "cost_ns": 10782000.0
+        },
+        {
+          "value": 167,
+          "accept": false,
+          "cost_ns": 10759000.0
+        },
+        {
+          "value": 168,
+          "accept": false,
+          "cost_ns": 11000000.0
+        },
+        {
+          "value": 169,
+          "accept": false,
+          "cost_ns": 10953000.0
+        },
+        {
+          "value": 170,
+          "accept": false,
+          "cost_ns": 11088000.0
+        },
+        {
+          "value": 171,
+          "accept": false,
+          "cost_ns": 11084000.0
+        },
+        {
+          "value": 172,
+          "accept": false,
+          "cost_ns": 11424000.0
+        },
+        {
+          "value": 173,
+          "accept": false,
+          "cost_ns": 11316000.0
+        },
+        {
+          "value": 174,
+          "accept": false,
+          "cost_ns": 11512000.0
+        },
+        {
+          "value": 175,
+          "accept": false,
+          "cost_ns": 11524000.0
+        },
+        {
+          "value": 176,
+          "accept": false,
+          "cost_ns": 11631000.0
+        },
+        {
+          "value": 177,
+          "accept": false,
+          "cost_ns": 11739000.0
+        },
+        {
+          "value": 178,
+          "accept": false,
+          "cost_ns": 11888000.0
+        },
+        {
+          "value": 179,
+          "accept": false,
+          "cost_ns": 11845000.0
+        },
+        {
+          "value": 180,
+          "accept": false,
+          "cost_ns": 12028000.0
+        },
+        {
+          "value": 181,
+          "accept": false,
+          "cost_ns": 12151000.0
+        },
+        {
+          "value": 182,
+          "accept": false,
+          "cost_ns": 12173000.0
+        },
+        {
+          "value": 183,
+          "accept": false,
+          "cost_ns": 12244000.0
+        },
+        {
+          "value": 184,
+          "accept": false,
+          "cost_ns": 12439000.0
+        },
+        {
+          "value": 185,
+          "accept": false,
+          "cost_ns": 12418000.0
+        },
+        {
+          "value": 186,
+          "accept": false,
+          "cost_ns": 12578000.0
+        },
+        {
+          "value": 187,
+          "accept": false,
+          "cost_ns": 12674000.0
+        },
+        {
+          "value": 188,
+          "accept": false,
+          "cost_ns": 12710000.0
+        },
+        {
+          "value": 189,
+          "accept": false,
+          "cost_ns": 12912000.0
+        },
+        {
+          "value": 190,
+          "accept": false,
+          "cost_ns": 13035000.0
+        },
+        {
+          "value": 191,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 192,
+          "accept": false,
+          "cost_ns": 13105000.0
+        },
+        {
+          "value": 193,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 194,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 195,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 196,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 197,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 198,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 199,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 200,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 201,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 202,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 203,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 204,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 205,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 206,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 207,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 208,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 209,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 210,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 211,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 212,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 213,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 214,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 215,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 216,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 217,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 218,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 219,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 220,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 221,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 222,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 223,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 224,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 225,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 226,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 227,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 228,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 229,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 230,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 231,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 232,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 233,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 234,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 235,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 236,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 237,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 238,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 239,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 240,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 241,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 242,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 243,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 244,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 245,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 246,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 247,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 248,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 249,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 250,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 251,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 252,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 253,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 254,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 255,
+          "accept": false,
+          "cost_ns": 0.0
+        }
+      ]
+    },
+    "L5": {
+      "signature_index": 0,
+      "honest_value": 2,
+      "ceiling_value": 253,
+      "samples": [
+        {
+          "value": 0,
+          "accept": false,
+          "cost_ns": 7598000.0
+        },
+        {
+          "value": 1,
+          "accept": false,
+          "cost_ns": 7747000.0
+        },
+        {
+          "value": 2,
+          "accept": true,
+          "cost_ns": 14526000.0
+        },
+        {
+          "value": 3,
+          "accept": false,
+          "cost_ns": 7793000.0
+        },
+        {
+          "value": 4,
+          "accept": false,
+          "cost_ns": 7719000.0
+        },
+        {
+          "value": 5,
+          "accept": false,
+          "cost_ns": 7799000.0
+        },
+        {
+          "value": 6,
+          "accept": false,
+          "cost_ns": 7794000.0
+        },
+        {
+          "value": 7,
+          "accept": false,
+          "cost_ns": 7768000.0
+        },
+        {
+          "value": 8,
+          "accept": false,
+          "cost_ns": 7750000.0
+        },
+        {
+          "value": 9,
+          "accept": false,
+          "cost_ns": 7849000.0
+        },
+        {
+          "value": 10,
+          "accept": false,
+          "cost_ns": 7800000.0
+        },
+        {
+          "value": 11,
+          "accept": false,
+          "cost_ns": 7835000.0
+        },
+        {
+          "value": 12,
+          "accept": false,
+          "cost_ns": 7826000.0
+        },
+        {
+          "value": 13,
+          "accept": false,
+          "cost_ns": 7782000.0
+        },
+        {
+          "value": 14,
+          "accept": false,
+          "cost_ns": 7863000.0
+        },
+        {
+          "value": 15,
+          "accept": false,
+          "cost_ns": 7997000.0
+        },
+        {
+          "value": 16,
+          "accept": false,
+          "cost_ns": 7935000.0
+        },
+        {
+          "value": 17,
+          "accept": false,
+          "cost_ns": 7864000.0
+        },
+        {
+          "value": 18,
+          "accept": false,
+          "cost_ns": 7912000.0
+        },
+        {
+          "value": 19,
+          "accept": false,
+          "cost_ns": 7877000.0
+        },
+        {
+          "value": 20,
+          "accept": false,
+          "cost_ns": 7877000.0
+        },
+        {
+          "value": 21,
+          "accept": false,
+          "cost_ns": 7917000.0
+        },
+        {
+          "value": 22,
+          "accept": false,
+          "cost_ns": 7888000.0
+        },
+        {
+          "value": 23,
+          "accept": false,
+          "cost_ns": 7997000.0
+        },
+        {
+          "value": 24,
+          "accept": false,
+          "cost_ns": 8017000.0
+        },
+        {
+          "value": 25,
+          "accept": false,
+          "cost_ns": 7953000.0
+        },
+        {
+          "value": 26,
+          "accept": false,
+          "cost_ns": 7995000.0
+        },
+        {
+          "value": 27,
+          "accept": false,
+          "cost_ns": 7973000.0
+        },
+        {
+          "value": 28,
+          "accept": false,
+          "cost_ns": 7997000.0
+        },
+        {
+          "value": 29,
+          "accept": false,
+          "cost_ns": 8092000.0
+        },
+        {
+          "value": 30,
+          "accept": false,
+          "cost_ns": 8096000.0
+        },
+        {
+          "value": 31,
+          "accept": false,
+          "cost_ns": 8081000.0
+        },
+        {
+          "value": 32,
+          "accept": false,
+          "cost_ns": 8130000.0
+        },
+        {
+          "value": 33,
+          "accept": false,
+          "cost_ns": 8175000.0
+        },
+        {
+          "value": 34,
+          "accept": false,
+          "cost_ns": 8176000.0
+        },
+        {
+          "value": 35,
+          "accept": false,
+          "cost_ns": 8234000.0
+        },
+        {
+          "value": 36,
+          "accept": false,
+          "cost_ns": 8240000.0
+        },
+        {
+          "value": 37,
+          "accept": false,
+          "cost_ns": 8343000.0
+        },
+        {
+          "value": 38,
+          "accept": false,
+          "cost_ns": 8269000.0
+        },
+        {
+          "value": 39,
+          "accept": false,
+          "cost_ns": 8250000.0
+        },
+        {
+          "value": 40,
+          "accept": false,
+          "cost_ns": 8343000.0
+        },
+        {
+          "value": 41,
+          "accept": false,
+          "cost_ns": 8301000.0
+        },
+        {
+          "value": 42,
+          "accept": false,
+          "cost_ns": 8446000.0
+        },
+        {
+          "value": 43,
+          "accept": false,
+          "cost_ns": 8475000.0
+        },
+        {
+          "value": 44,
+          "accept": false,
+          "cost_ns": 8383000.0
+        },
+        {
+          "value": 45,
+          "accept": false,
+          "cost_ns": 8500000.0
+        },
+        {
+          "value": 46,
+          "accept": false,
+          "cost_ns": 8448000.0
+        },
+        {
+          "value": 47,
+          "accept": false,
+          "cost_ns": 8521000.0
+        },
+        {
+          "value": 48,
+          "accept": false,
+          "cost_ns": 8659000.0
+        },
+        {
+          "value": 49,
+          "accept": false,
+          "cost_ns": 8681000.0
+        },
+        {
+          "value": 50,
+          "accept": false,
+          "cost_ns": 8615000.0
+        },
+        {
+          "value": 51,
+          "accept": false,
+          "cost_ns": 8733000.0
+        },
+        {
+          "value": 52,
+          "accept": false,
+          "cost_ns": 8720000.0
+        },
+        {
+          "value": 53,
+          "accept": false,
+          "cost_ns": 8722000.0
+        },
+        {
+          "value": 54,
+          "accept": false,
+          "cost_ns": 8801000.0
+        },
+        {
+          "value": 55,
+          "accept": false,
+          "cost_ns": 8866000.0
+        },
+        {
+          "value": 56,
+          "accept": false,
+          "cost_ns": 8873000.0
+        },
+        {
+          "value": 57,
+          "accept": false,
+          "cost_ns": 8910000.0
+        },
+        {
+          "value": 58,
+          "accept": false,
+          "cost_ns": 8982000.0
+        },
+        {
+          "value": 59,
+          "accept": false,
+          "cost_ns": 8986000.0
+        },
+        {
+          "value": 60,
+          "accept": false,
+          "cost_ns": 9011000.0
+        },
+        {
+          "value": 61,
+          "accept": false,
+          "cost_ns": 9119000.0
+        },
+        {
+          "value": 62,
+          "accept": false,
+          "cost_ns": 9124000.0
+        },
+        {
+          "value": 63,
+          "accept": false,
+          "cost_ns": 9163000.0
+        },
+        {
+          "value": 64,
+          "accept": false,
+          "cost_ns": 9187000.0
+        },
+        {
+          "value": 65,
+          "accept": false,
+          "cost_ns": 9271000.0
+        },
+        {
+          "value": 66,
+          "accept": false,
+          "cost_ns": 9337000.0
+        },
+        {
+          "value": 67,
+          "accept": false,
+          "cost_ns": 9389000.0
+        },
+        {
+          "value": 68,
+          "accept": false,
+          "cost_ns": 9496000.0
+        },
+        {
+          "value": 69,
+          "accept": false,
+          "cost_ns": 9516000.0
+        },
+        {
+          "value": 70,
+          "accept": false,
+          "cost_ns": 9502000.0
+        },
+        {
+          "value": 71,
+          "accept": false,
+          "cost_ns": 9615000.0
+        },
+        {
+          "value": 72,
+          "accept": false,
+          "cost_ns": 9566000.0
+        },
+        {
+          "value": 73,
+          "accept": false,
+          "cost_ns": 9684000.0
+        },
+        {
+          "value": 74,
+          "accept": false,
+          "cost_ns": 9646000.0
+        },
+        {
+          "value": 75,
+          "accept": false,
+          "cost_ns": 9824000.0
+        },
+        {
+          "value": 76,
+          "accept": false,
+          "cost_ns": 9782000.0
+        },
+        {
+          "value": 77,
+          "accept": false,
+          "cost_ns": 9871000.0
+        },
+        {
+          "value": 78,
+          "accept": false,
+          "cost_ns": 9973000.0
+        },
+        {
+          "value": 79,
+          "accept": false,
+          "cost_ns": 9994000.0
+        },
+        {
+          "value": 80,
+          "accept": false,
+          "cost_ns": 10049000.0
+        },
+        {
+          "value": 81,
+          "accept": false,
+          "cost_ns": 10159000.0
+        },
+        {
+          "value": 82,
+          "accept": false,
+          "cost_ns": 10163000.0
+        },
+        {
+          "value": 83,
+          "accept": false,
+          "cost_ns": 10412000.0
+        },
+        {
+          "value": 84,
+          "accept": false,
+          "cost_ns": 10298000.0
+        },
+        {
+          "value": 85,
+          "accept": false,
+          "cost_ns": 10385000.0
+        },
+        {
+          "value": 86,
+          "accept": false,
+          "cost_ns": 10534000.0
+        },
+        {
+          "value": 87,
+          "accept": false,
+          "cost_ns": 10606000.0
+        },
+        {
+          "value": 88,
+          "accept": false,
+          "cost_ns": 10699000.0
+        },
+        {
+          "value": 89,
+          "accept": false,
+          "cost_ns": 10650000.0
+        },
+        {
+          "value": 90,
+          "accept": false,
+          "cost_ns": 10782000.0
+        },
+        {
+          "value": 91,
+          "accept": false,
+          "cost_ns": 10757000.0
+        },
+        {
+          "value": 92,
+          "accept": false,
+          "cost_ns": 10839000.0
+        },
+        {
+          "value": 93,
+          "accept": false,
+          "cost_ns": 10794000.0
+        },
+        {
+          "value": 94,
+          "accept": false,
+          "cost_ns": 10992000.0
+        },
+        {
+          "value": 95,
+          "accept": false,
+          "cost_ns": 11057000.0
+        },
+        {
+          "value": 96,
+          "accept": false,
+          "cost_ns": 11200000.0
+        },
+        {
+          "value": 97,
+          "accept": false,
+          "cost_ns": 11173000.0
+        },
+        {
+          "value": 98,
+          "accept": false,
+          "cost_ns": 11291000.0
+        },
+        {
+          "value": 99,
+          "accept": false,
+          "cost_ns": 11454000.0
+        },
+        {
+          "value": 100,
+          "accept": false,
+          "cost_ns": 11434000.0
+        },
+        {
+          "value": 101,
+          "accept": false,
+          "cost_ns": 11570000.0
+        },
+        {
+          "value": 102,
+          "accept": false,
+          "cost_ns": 11559000.0
+        },
+        {
+          "value": 103,
+          "accept": false,
+          "cost_ns": 11609000.0
+        },
+        {
+          "value": 104,
+          "accept": false,
+          "cost_ns": 11784000.0
+        },
+        {
+          "value": 105,
+          "accept": false,
+          "cost_ns": 11841000.0
+        },
+        {
+          "value": 106,
+          "accept": false,
+          "cost_ns": 12008000.0
+        },
+        {
+          "value": 107,
+          "accept": false,
+          "cost_ns": 12063000.0
+        },
+        {
+          "value": 108,
+          "accept": false,
+          "cost_ns": 12123000.0
+        },
+        {
+          "value": 109,
+          "accept": false,
+          "cost_ns": 12194000.0
+        },
+        {
+          "value": 110,
+          "accept": false,
+          "cost_ns": 12235000.0
+        },
+        {
+          "value": 111,
+          "accept": false,
+          "cost_ns": 12300000.0
+        },
+        {
+          "value": 112,
+          "accept": false,
+          "cost_ns": 12388000.0
+        },
+        {
+          "value": 113,
+          "accept": false,
+          "cost_ns": 12435000.0
+        },
+        {
+          "value": 114,
+          "accept": false,
+          "cost_ns": 12586000.0
+        },
+        {
+          "value": 115,
+          "accept": false,
+          "cost_ns": 12582000.0
+        },
+        {
+          "value": 116,
+          "accept": false,
+          "cost_ns": 12729000.0
+        },
+        {
+          "value": 117,
+          "accept": false,
+          "cost_ns": 12818000.0
+        },
+        {
+          "value": 118,
+          "accept": false,
+          "cost_ns": 12903000.0
+        },
+        {
+          "value": 119,
+          "accept": false,
+          "cost_ns": 12966000.0
+        },
+        {
+          "value": 120,
+          "accept": false,
+          "cost_ns": 13015000.0
+        },
+        {
+          "value": 121,
+          "accept": false,
+          "cost_ns": 13162000.0
+        },
+        {
+          "value": 122,
+          "accept": false,
+          "cost_ns": 13301000.0
+        },
+        {
+          "value": 123,
+          "accept": false,
+          "cost_ns": 13373000.0
+        },
+        {
+          "value": 124,
+          "accept": false,
+          "cost_ns": 13399000.0
+        },
+        {
+          "value": 125,
+          "accept": false,
+          "cost_ns": 13421000.0
+        },
+        {
+          "value": 126,
+          "accept": false,
+          "cost_ns": 13563000.0
+        },
+        {
+          "value": 127,
+          "accept": false,
+          "cost_ns": 13741000.0
+        },
+        {
+          "value": 128,
+          "accept": false,
+          "cost_ns": 13768000.0
+        },
+        {
+          "value": 129,
+          "accept": false,
+          "cost_ns": 13957000.0
+        },
+        {
+          "value": 130,
+          "accept": false,
+          "cost_ns": 14041000.0
+        },
+        {
+          "value": 131,
+          "accept": false,
+          "cost_ns": 14101000.0
+        },
+        {
+          "value": 132,
+          "accept": false,
+          "cost_ns": 14291000.0
+        },
+        {
+          "value": 133,
+          "accept": false,
+          "cost_ns": 14268000.0
+        },
+        {
+          "value": 134,
+          "accept": false,
+          "cost_ns": 14353000.0
+        },
+        {
+          "value": 135,
+          "accept": false,
+          "cost_ns": 14632000.0
+        },
+        {
+          "value": 136,
+          "accept": false,
+          "cost_ns": 14643000.0
+        },
+        {
+          "value": 137,
+          "accept": false,
+          "cost_ns": 14778000.0
+        },
+        {
+          "value": 138,
+          "accept": false,
+          "cost_ns": 14691000.0
+        },
+        {
+          "value": 139,
+          "accept": false,
+          "cost_ns": 14941000.0
+        },
+        {
+          "value": 140,
+          "accept": false,
+          "cost_ns": 15061000.0
+        },
+        {
+          "value": 141,
+          "accept": false,
+          "cost_ns": 15181000.0
+        },
+        {
+          "value": 142,
+          "accept": false,
+          "cost_ns": 15372000.0
+        },
+        {
+          "value": 143,
+          "accept": false,
+          "cost_ns": 15469000.0
+        },
+        {
+          "value": 144,
+          "accept": false,
+          "cost_ns": 15506000.0
+        },
+        {
+          "value": 145,
+          "accept": false,
+          "cost_ns": 15617000.0
+        },
+        {
+          "value": 146,
+          "accept": false,
+          "cost_ns": 15840000.0
+        },
+        {
+          "value": 147,
+          "accept": false,
+          "cost_ns": 15850000.0
+        },
+        {
+          "value": 148,
+          "accept": false,
+          "cost_ns": 16098000.0
+        },
+        {
+          "value": 149,
+          "accept": false,
+          "cost_ns": 16098000.0
+        },
+        {
+          "value": 150,
+          "accept": false,
+          "cost_ns": 16273000.0
+        },
+        {
+          "value": 151,
+          "accept": false,
+          "cost_ns": 16299000.0
+        },
+        {
+          "value": 152,
+          "accept": false,
+          "cost_ns": 16363000.0
+        },
+        {
+          "value": 153,
+          "accept": false,
+          "cost_ns": 16446000.0
+        },
+        {
+          "value": 154,
+          "accept": false,
+          "cost_ns": 16546000.0
+        },
+        {
+          "value": 155,
+          "accept": false,
+          "cost_ns": 16741000.0
+        },
+        {
+          "value": 156,
+          "accept": false,
+          "cost_ns": 16809000.0
+        },
+        {
+          "value": 157,
+          "accept": false,
+          "cost_ns": 16859000.0
+        },
+        {
+          "value": 158,
+          "accept": false,
+          "cost_ns": 16923000.0
+        },
+        {
+          "value": 159,
+          "accept": false,
+          "cost_ns": 17072000.0
+        },
+        {
+          "value": 160,
+          "accept": false,
+          "cost_ns": 17274000.0
+        },
+        {
+          "value": 161,
+          "accept": false,
+          "cost_ns": 17325000.0
+        },
+        {
+          "value": 162,
+          "accept": false,
+          "cost_ns": 17474000.0
+        },
+        {
+          "value": 163,
+          "accept": false,
+          "cost_ns": 17507000.0
+        },
+        {
+          "value": 164,
+          "accept": false,
+          "cost_ns": 17741000.0
+        },
+        {
+          "value": 165,
+          "accept": false,
+          "cost_ns": 17821000.0
+        },
+        {
+          "value": 166,
+          "accept": false,
+          "cost_ns": 18047000.0
+        },
+        {
+          "value": 167,
+          "accept": false,
+          "cost_ns": 18205000.0
+        },
+        {
+          "value": 168,
+          "accept": false,
+          "cost_ns": 18348000.0
+        },
+        {
+          "value": 169,
+          "accept": false,
+          "cost_ns": 18595000.0
+        },
+        {
+          "value": 170,
+          "accept": false,
+          "cost_ns": 18648000.0
+        },
+        {
+          "value": 171,
+          "accept": false,
+          "cost_ns": 18721000.0
+        },
+        {
+          "value": 172,
+          "accept": false,
+          "cost_ns": 18885000.0
+        },
+        {
+          "value": 173,
+          "accept": false,
+          "cost_ns": 18930000.0
+        },
+        {
+          "value": 174,
+          "accept": false,
+          "cost_ns": 19078000.0
+        },
+        {
+          "value": 175,
+          "accept": false,
+          "cost_ns": 19235000.0
+        },
+        {
+          "value": 176,
+          "accept": false,
+          "cost_ns": 19399000.0
+        },
+        {
+          "value": 177,
+          "accept": false,
+          "cost_ns": 19492000.0
+        },
+        {
+          "value": 178,
+          "accept": false,
+          "cost_ns": 19607000.0
+        },
+        {
+          "value": 179,
+          "accept": false,
+          "cost_ns": 19897000.0
+        },
+        {
+          "value": 180,
+          "accept": false,
+          "cost_ns": 19943000.0
+        },
+        {
+          "value": 181,
+          "accept": false,
+          "cost_ns": 20042000.0
+        },
+        {
+          "value": 182,
+          "accept": false,
+          "cost_ns": 20310000.0
+        },
+        {
+          "value": 183,
+          "accept": false,
+          "cost_ns": 20212000.0
+        },
+        {
+          "value": 184,
+          "accept": false,
+          "cost_ns": 20379000.0
+        },
+        {
+          "value": 185,
+          "accept": false,
+          "cost_ns": 20479000.0
+        },
+        {
+          "value": 186,
+          "accept": false,
+          "cost_ns": 20569000.0
+        },
+        {
+          "value": 187,
+          "accept": false,
+          "cost_ns": 20669000.0
+        },
+        {
+          "value": 188,
+          "accept": false,
+          "cost_ns": 20746000.0
+        },
+        {
+          "value": 189,
+          "accept": false,
+          "cost_ns": 20827000.0
+        },
+        {
+          "value": 190,
+          "accept": false,
+          "cost_ns": 21145000.0
+        },
+        {
+          "value": 191,
+          "accept": false,
+          "cost_ns": 21443000.0
+        },
+        {
+          "value": 192,
+          "accept": false,
+          "cost_ns": 21480000.0
+        },
+        {
+          "value": 193,
+          "accept": false,
+          "cost_ns": 21561000.0
+        },
+        {
+          "value": 194,
+          "accept": false,
+          "cost_ns": 21746000.0
+        },
+        {
+          "value": 195,
+          "accept": false,
+          "cost_ns": 21784000.0
+        },
+        {
+          "value": 196,
+          "accept": false,
+          "cost_ns": 22047000.0
+        },
+        {
+          "value": 197,
+          "accept": false,
+          "cost_ns": 22245000.0
+        },
+        {
+          "value": 198,
+          "accept": false,
+          "cost_ns": 22483000.0
+        },
+        {
+          "value": 199,
+          "accept": false,
+          "cost_ns": 22696000.0
+        },
+        {
+          "value": 200,
+          "accept": false,
+          "cost_ns": 22760000.0
+        },
+        {
+          "value": 201,
+          "accept": false,
+          "cost_ns": 22898000.0
+        },
+        {
+          "value": 202,
+          "accept": false,
+          "cost_ns": 22960000.0
+        },
+        {
+          "value": 203,
+          "accept": false,
+          "cost_ns": 23500000.0
+        },
+        {
+          "value": 204,
+          "accept": false,
+          "cost_ns": 23319000.0
+        },
+        {
+          "value": 205,
+          "accept": false,
+          "cost_ns": 23616000.0
+        },
+        {
+          "value": 206,
+          "accept": false,
+          "cost_ns": 23713000.0
+        },
+        {
+          "value": 207,
+          "accept": false,
+          "cost_ns": 23812000.0
+        },
+        {
+          "value": 208,
+          "accept": false,
+          "cost_ns": 23967000.0
+        },
+        {
+          "value": 209,
+          "accept": false,
+          "cost_ns": 24259000.0
+        },
+        {
+          "value": 210,
+          "accept": false,
+          "cost_ns": 24292000.0
+        },
+        {
+          "value": 211,
+          "accept": false,
+          "cost_ns": 24263000.0
+        },
+        {
+          "value": 212,
+          "accept": false,
+          "cost_ns": 24460000.0
+        },
+        {
+          "value": 213,
+          "accept": false,
+          "cost_ns": 24771000.0
+        },
+        {
+          "value": 214,
+          "accept": false,
+          "cost_ns": 24678000.0
+        },
+        {
+          "value": 215,
+          "accept": false,
+          "cost_ns": 25161000.0
+        },
+        {
+          "value": 216,
+          "accept": false,
+          "cost_ns": 25218000.0
+        },
+        {
+          "value": 217,
+          "accept": false,
+          "cost_ns": 25376000.0
+        },
+        {
+          "value": 218,
+          "accept": false,
+          "cost_ns": 25350000.0
+        },
+        {
+          "value": 219,
+          "accept": false,
+          "cost_ns": 25605000.0
+        },
+        {
+          "value": 220,
+          "accept": false,
+          "cost_ns": 25761000.0
+        },
+        {
+          "value": 221,
+          "accept": false,
+          "cost_ns": 26062000.0
+        },
+        {
+          "value": 222,
+          "accept": false,
+          "cost_ns": 26281000.0
+        },
+        {
+          "value": 223,
+          "accept": false,
+          "cost_ns": 26290000.0
+        },
+        {
+          "value": 224,
+          "accept": false,
+          "cost_ns": 26652000.0
+        },
+        {
+          "value": 225,
+          "accept": false,
+          "cost_ns": 26791000.0
+        },
+        {
+          "value": 226,
+          "accept": false,
+          "cost_ns": 26977000.0
+        },
+        {
+          "value": 227,
+          "accept": false,
+          "cost_ns": 27008000.0
+        },
+        {
+          "value": 228,
+          "accept": false,
+          "cost_ns": 27053000.0
+        },
+        {
+          "value": 229,
+          "accept": false,
+          "cost_ns": 27514000.0
+        },
+        {
+          "value": 230,
+          "accept": false,
+          "cost_ns": 27605000.0
+        },
+        {
+          "value": 231,
+          "accept": false,
+          "cost_ns": 27871000.0
+        },
+        {
+          "value": 232,
+          "accept": false,
+          "cost_ns": 28047000.0
+        },
+        {
+          "value": 233,
+          "accept": false,
+          "cost_ns": 28128000.0
+        },
+        {
+          "value": 234,
+          "accept": false,
+          "cost_ns": 28241000.0
+        },
+        {
+          "value": 235,
+          "accept": false,
+          "cost_ns": 28227000.0
+        },
+        {
+          "value": 236,
+          "accept": false,
+          "cost_ns": 28505000.0
+        },
+        {
+          "value": 237,
+          "accept": false,
+          "cost_ns": 28795000.0
+        },
+        {
+          "value": 238,
+          "accept": false,
+          "cost_ns": 28962000.0
+        },
+        {
+          "value": 239,
+          "accept": false,
+          "cost_ns": 29109000.0
+        },
+        {
+          "value": 240,
+          "accept": false,
+          "cost_ns": 29136000.0
+        },
+        {
+          "value": 241,
+          "accept": false,
+          "cost_ns": 29347000.0
+        },
+        {
+          "value": 242,
+          "accept": false,
+          "cost_ns": 29534000.0
+        },
+        {
+          "value": 243,
+          "accept": false,
+          "cost_ns": 29942000.0
+        },
+        {
+          "value": 244,
+          "accept": false,
+          "cost_ns": 30060000.0
+        },
+        {
+          "value": 245,
+          "accept": false,
+          "cost_ns": 30372000.0
+        },
+        {
+          "value": 246,
+          "accept": false,
+          "cost_ns": 30407000.0
+        },
+        {
+          "value": 247,
+          "accept": false,
+          "cost_ns": 30566000.0
+        },
+        {
+          "value": 248,
+          "accept": false,
+          "cost_ns": 30712000.0
+        },
+        {
+          "value": 249,
+          "accept": false,
+          "cost_ns": 31117000.0
+        },
+        {
+          "value": 250,
+          "accept": false,
+          "cost_ns": 31224000.0
+        },
+        {
+          "value": 251,
+          "accept": false,
+          "cost_ns": 31488000.0
+        },
+        {
+          "value": 252,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 253,
+          "accept": false,
+          "cost_ns": 31742000.0
+        },
+        {
+          "value": 254,
+          "accept": false,
+          "cost_ns": 0.0
+        },
+        {
+          "value": 255,
+          "accept": false,
+          "cost_ns": 0.0
+        }
+      ],
+      "ascii": " 31.7 |                                                    ### \n 29.6 |                                                 ####   \n 27.5 |                                               ###      \n 25.4 |                                           #####        \n 23.3 |                                         ###            \n 21.2 |                                     ####               \n 19.0 |                                  ####                  \n 16.9 |                             ######                     \n 14.8 |#                        #####                          \n 12.7 |                  #######                               \n 10.6 |         ##########                                     \n  8.5 |##########                                              \n  6.3 |                                                        \n  4.2 |                                                        \n  2.1 |                                                        \n  0.0 |                                                      ##\n      +--------------------------------------------------------\n       0                                                  255\n       value of two_resp_length  (y axis = verify cost, ms)"
+    }
+  }
+}

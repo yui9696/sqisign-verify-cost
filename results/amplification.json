@@ -1,0 +1,646 @@
+{
+  "_meta": {
+    "machine": "Darwin-25.1.0-arm64-arm-64bit-Mach-O",
+    "python": "3.14.7",
+    "openssl": "OpenSSL 3.6.3 9 Jun 2026",
+    "reference_commit": "dd133d7",
+    "timestamp_utc": "2026-08-31T22:03:47Z"
+  },
+  "levels": {
+    "L1": {
+      "level": 1,
+      "field": "two_resp_length",
+      "response_length": 126,
+      "n_signatures": 20,
+      "honest_us": {
+        "median": 2440.5,
+        "min": 2404.0,
+        "max": 2523.0
+      },
+      "worst_attacker_us": {
+        "median": 3666.0,
+        "max": 3773.0
+      },
+      "amplification_vs_median_honest": {
+        "median": 1.502,
+        "max": 1.546
+      },
+      "amplification_vs_own_honest": {
+        "median": 1.505,
+        "max": 1.529
+      },
+      "ceiling_value": 126,
+      "per_signature": [
+        {
+          "index": 0,
+          "honest_value": 1,
+          "honest_us": 2464.0,
+          "worst_value": 126,
+          "worst_us": 3635.0,
+          "own_amplification": 1.475,
+          "ceiling_value": 126
+        },
+        {
+          "index": 1,
+          "honest_value": 2,
+          "honest_us": 2411.0,
+          "worst_value": 125,
+          "worst_us": 3601.0,
+          "own_amplification": 1.494,
+          "ceiling_value": 125
+        },
+        {
+          "index": 2,
+          "honest_value": 6,
+          "honest_us": 2404.0,
+          "worst_value": 126,
+          "worst_us": 3661.0,
+          "own_amplification": 1.523,
+          "ceiling_value": 126
+        },
+        {
+          "index": 3,
+          "honest_value": 1,
+          "honest_us": 2448.0,
+          "worst_value": 126,
+          "worst_us": 3660.0,
+          "own_amplification": 1.495,
+          "ceiling_value": 126
+        },
+        {
+          "index": 4,
+          "honest_value": 2,
+          "honest_us": 2433.0,
+          "worst_value": 126,
+          "worst_us": 3702.0,
+          "own_amplification": 1.522,
+          "ceiling_value": 126
+        },
+        {
+          "index": 5,
+          "honest_value": 2,
+          "honest_us": 2434.0,
+          "worst_value": 126,
+          "worst_us": 3649.0,
+          "own_amplification": 1.499,
+          "ceiling_value": 126
+        },
+        {
+          "index": 6,
+          "honest_value": 2,
+          "honest_us": 2463.0,
+          "worst_value": 123,
+          "worst_us": 3712.0,
+          "own_amplification": 1.507,
+          "ceiling_value": 126
+        },
+        {
+          "index": 7,
+          "honest_value": 0,
+          "honest_us": 2434.0,
+          "worst_value": 123,
+          "worst_us": 3659.0,
+          "own_amplification": 1.503,
+          "ceiling_value": 126
+        },
+        {
+          "index": 8,
+          "honest_value": 0,
+          "honest_us": 2432.0,
+          "worst_value": 0,
+          "worst_us": 2429.0,
+          "own_amplification": 0.999,
+          "ceiling_value": 125
+        },
+        {
+          "index": 9,
+          "honest_value": 1,
+          "honest_us": 2424.0,
+          "worst_value": 124,
+          "worst_us": 3681.0,
+          "own_amplification": 1.519,
+          "ceiling_value": 124
+        },
+        {
+          "index": 10,
+          "honest_value": 0,
+          "honest_us": 2432.0,
+          "worst_value": 126,
+          "worst_us": 3690.0,
+          "own_amplification": 1.517,
+          "ceiling_value": 126
+        },
+        {
+          "index": 11,
+          "honest_value": 0,
+          "honest_us": 2486.0,
+          "worst_value": 126,
+          "worst_us": 3773.0,
+          "own_amplification": 1.518,
+          "ceiling_value": 126
+        },
+        {
+          "index": 12,
+          "honest_value": 1,
+          "honest_us": 2523.0,
+          "worst_value": 126,
+          "worst_us": 3716.0,
+          "own_amplification": 1.473,
+          "ceiling_value": 126
+        },
+        {
+          "index": 13,
+          "honest_value": 3,
+          "honest_us": 2455.0,
+          "worst_value": 126,
+          "worst_us": 3753.0,
+          "own_amplification": 1.529,
+          "ceiling_value": 126
+        },
+        {
+          "index": 14,
+          "honest_value": 2,
+          "honest_us": 2415.0,
+          "worst_value": 125,
+          "worst_us": 3664.0,
+          "own_amplification": 1.517,
+          "ceiling_value": 125
+        },
+        {
+          "index": 15,
+          "honest_value": 4,
+          "honest_us": 2409.0,
+          "worst_value": 123,
+          "worst_us": 3664.0,
+          "own_amplification": 1.521,
+          "ceiling_value": 126
+        },
+        {
+          "index": 16,
+          "honest_value": 1,
+          "honest_us": 2501.0,
+          "worst_value": 126,
+          "worst_us": 3668.0,
+          "own_amplification": 1.467,
+          "ceiling_value": 126
+        },
+        {
+          "index": 17,
+          "honest_value": 0,
+          "honest_us": 2470.0,
+          "worst_value": 126,
+          "worst_us": 3766.0,
+          "own_amplification": 1.525,
+          "ceiling_value": 126
+        },
+        {
+          "index": 18,
+          "honest_value": 1,
+          "honest_us": 2468.0,
+          "worst_value": 126,
+          "worst_us": 3694.0,
+          "own_amplification": 1.497,
+          "ceiling_value": 126
+        },
+        {
+          "index": 19,
+          "honest_value": 0,
+          "honest_us": 2447.0,
+          "worst_value": 0,
+          "worst_us": 2463.0,
+          "own_amplification": 1.007,
+          "ceiling_value": 125
+        }
+      ]
+    },
+    "L3": {
+      "level": 3,
+      "field": "two_resp_length",
+      "response_length": 192,
+      "n_signatures": 20,
+      "honest_us": {
+        "median": 7135.0,
+        "min": 6997.0,
+        "max": 7216.0
+      },
+      "worst_attacker_us": {
+        "median": 12959.0,
+        "max": 13657.0
+      },
+      "amplification_vs_median_honest": {
+        "median": 1.816,
+        "max": 1.914
+      },
+      "amplification_vs_own_honest": {
+        "median": 1.818,
+        "max": 1.923
+      },
+      "ceiling_value": 192,
+      "per_signature": [
+        {
+          "index": 0,
+          "honest_value": 4,
+          "honest_us": 7087.0,
+          "worst_value": 192,
+          "worst_us": 12889.0,
+          "own_amplification": 1.819,
+          "ceiling_value": 192
+        },
+        {
+          "index": 1,
+          "honest_value": 2,
+          "honest_us": 7111.0,
+          "worst_value": 192,
+          "worst_us": 12997.0,
+          "own_amplification": 1.828,
+          "ceiling_value": 192
+        },
+        {
+          "index": 2,
+          "honest_value": 1,
+          "honest_us": 6997.0,
+          "worst_value": 191,
+          "worst_us": 12773.0,
+          "own_amplification": 1.825,
+          "ceiling_value": 191
+        },
+        {
+          "index": 3,
+          "honest_value": 2,
+          "honest_us": 7162.0,
+          "worst_value": 192,
+          "worst_us": 13166.0,
+          "own_amplification": 1.838,
+          "ceiling_value": 192
+        },
+        {
+          "index": 4,
+          "honest_value": 0,
+          "honest_us": 7001.0,
+          "worst_value": 0,
+          "worst_us": 7085.0,
+          "own_amplification": 1.012,
+          "ceiling_value": 153
+        },
+        {
+          "index": 5,
+          "honest_value": 0,
+          "honest_us": 7084.0,
+          "worst_value": 191,
+          "worst_us": 12881.0,
+          "own_amplification": 1.818,
+          "ceiling_value": 191
+        },
+        {
+          "index": 6,
+          "honest_value": 0,
+          "honest_us": 7143.0,
+          "worst_value": 192,
+          "worst_us": 13126.0,
+          "own_amplification": 1.838,
+          "ceiling_value": 192
+        },
+        {
+          "index": 7,
+          "honest_value": 0,
+          "honest_us": 7166.0,
+          "worst_value": 0,
+          "worst_us": 6947.0,
+          "own_amplification": 0.969,
+          "ceiling_value": 0
+        },
+        {
+          "index": 8,
+          "honest_value": 3,
+          "honest_us": 7157.0,
+          "worst_value": 191,
+          "worst_us": 12951.0,
+          "own_amplification": 1.81,
+          "ceiling_value": 191
+        },
+        {
+          "index": 9,
+          "honest_value": 0,
+          "honest_us": 7023.0,
+          "worst_value": 188,
+          "worst_us": 12764.0,
+          "own_amplification": 1.817,
+          "ceiling_value": 190
+        },
+        {
+          "index": 10,
+          "honest_value": 1,
+          "honest_us": 7160.0,
+          "worst_value": 192,
+          "worst_us": 13016.0,
+          "own_amplification": 1.818,
+          "ceiling_value": 192
+        },
+        {
+          "index": 11,
+          "honest_value": 0,
+          "honest_us": 7170.0,
+          "worst_value": 192,
+          "worst_us": 12996.0,
+          "own_amplification": 1.813,
+          "ceiling_value": 192
+        },
+        {
+          "index": 12,
+          "honest_value": 0,
+          "honest_us": 7089.0,
+          "worst_value": 0,
+          "worst_us": 7092.0,
+          "own_amplification": 1.0,
+          "ceiling_value": 0
+        },
+        {
+          "index": 13,
+          "honest_value": 1,
+          "honest_us": 7216.0,
+          "worst_value": 189,
+          "worst_us": 13004.0,
+          "own_amplification": 1.802,
+          "ceiling_value": 192
+        },
+        {
+          "index": 14,
+          "honest_value": 0,
+          "honest_us": 7060.0,
+          "worst_value": 189,
+          "worst_us": 12967.0,
+          "own_amplification": 1.837,
+          "ceiling_value": 191
+        },
+        {
+          "index": 15,
+          "honest_value": 1,
+          "honest_us": 7176.0,
+          "worst_value": 191,
+          "worst_us": 12915.0,
+          "own_amplification": 1.8,
+          "ceiling_value": 191
+        },
+        {
+          "index": 16,
+          "honest_value": 2,
+          "honest_us": 7140.0,
+          "worst_value": 192,
+          "worst_us": 13132.0,
+          "own_amplification": 1.839,
+          "ceiling_value": 192
+        },
+        {
+          "index": 17,
+          "honest_value": 0,
+          "honest_us": 7130.0,
+          "worst_value": 191,
+          "worst_us": 13015.0,
+          "own_amplification": 1.825,
+          "ceiling_value": 191
+        },
+        {
+          "index": 18,
+          "honest_value": 2,
+          "honest_us": 7142.0,
+          "worst_value": 192,
+          "worst_us": 12912.0,
+          "own_amplification": 1.808,
+          "ceiling_value": 192
+        },
+        {
+          "index": 19,
+          "honest_value": 3,
+          "honest_us": 7103.0,
+          "worst_value": 190,
+          "worst_us": 13657.0,
+          "own_amplification": 1.923,
+          "ceiling_value": 192
+        }
+      ]
+    },
+    "L5": {
+      "level": 5,
+      "field": "two_resp_length",
+      "response_length": 253,
+      "n_signatures": 20,
+      "honest_us": {
+        "median": 14597.0,
+        "min": 14372.0,
+        "max": 14722.0
+      },
+      "worst_attacker_us": {
+        "median": 31650.5,
+        "max": 35357.0
+      },
+      "amplification_vs_median_honest": {
+        "median": 2.168,
+        "max": 2.422
+      },
+      "amplification_vs_own_honest": {
+        "median": 2.171,
+        "max": 2.416
+      },
+      "ceiling_value": 253,
+      "per_signature": [
+        {
+          "index": 0,
+          "honest_value": 2,
+          "honest_us": 14715.0,
+          "worst_value": 253,
+          "worst_us": 31564.0,
+          "own_amplification": 2.145,
+          "ceiling_value": 253
+        },
+        {
+          "index": 1,
+          "honest_value": 1,
+          "honest_us": 14430.0,
+          "worst_value": 252,
+          "worst_us": 31696.0,
+          "own_amplification": 2.197,
+          "ceiling_value": 252
+        },
+        {
+          "index": 2,
+          "honest_value": 0,
+          "honest_us": 14722.0,
+          "worst_value": 0,
+          "worst_us": 14650.0,
+          "own_amplification": 0.995,
+          "ceiling_value": 0
+        },
+        {
+          "index": 3,
+          "honest_value": 0,
+          "honest_us": 14607.0,
+          "worst_value": 253,
+          "worst_us": 31682.0,
+          "own_amplification": 2.169,
+          "ceiling_value": 253
+        },
+        {
+          "index": 4,
+          "honest_value": 5,
+          "honest_us": 14492.0,
+          "worst_value": 253,
+          "worst_us": 31513.0,
+          "own_amplification": 2.175,
+          "ceiling_value": 253
+        },
+        {
+          "index": 5,
+          "honest_value": 1,
+          "honest_us": 14534.0,
+          "worst_value": 253,
+          "worst_us": 31822.0,
+          "own_amplification": 2.189,
+          "ceiling_value": 253
+        },
+        {
+          "index": 6,
+          "honest_value": 2,
+          "honest_us": 14636.0,
+          "worst_value": 219,
+          "worst_us": 35357.0,
+          "own_amplification": 2.416,
+          "ceiling_value": 253
+        },
+        {
+          "index": 7,
+          "honest_value": 0,
+          "honest_us": 14469.0,
+          "worst_value": 253,
+          "worst_us": 31628.0,
+          "own_amplification": 2.186,
+          "ceiling_value": 253
+        },
+        {
+          "index": 8,
+          "honest_value": 0,
+          "honest_us": 14614.0,
+          "worst_value": 0,
+          "worst_us": 14409.0,
+          "own_amplification": 0.986,
+          "ceiling_value": 0
+        },
+        {
+          "index": 9,
+          "honest_value": 0,
+          "honest_us": 14372.0,
+          "worst_value": 251,
+          "worst_us": 31158.0,
+          "own_amplification": 2.168,
+          "ceiling_value": 251
+        },
+        {
+          "index": 10,
+          "honest_value": 2,
+          "honest_us": 14626.0,
+          "worst_value": 253,
+          "worst_us": 31798.0,
+          "own_amplification": 2.174,
+          "ceiling_value": 253
+        },
+        {
+          "index": 11,
+          "honest_value": 0,
+          "honest_us": 14545.0,
+          "worst_value": 253,
+          "worst_us": 31512.0,
+          "own_amplification": 2.167,
+          "ceiling_value": 253
+        },
+        {
+          "index": 12,
+          "honest_value": 0,
+          "honest_us": 14526.0,
+          "worst_value": 253,
+          "worst_us": 31691.0,
+          "own_amplification": 2.182,
+          "ceiling_value": 253
+        },
+        {
+          "index": 13,
+          "honest_value": 1,
+          "honest_us": 14524.0,
+          "worst_value": 252,
+          "worst_us": 31673.0,
+          "own_amplification": 2.181,
+          "ceiling_value": 252
+        },
+        {
+          "index": 14,
+          "honest_value": 1,
+          "honest_us": 14689.0,
+          "worst_value": 253,
+          "worst_us": 31826.0,
+          "own_amplification": 2.167,
+          "ceiling_value": 253
+        },
+        {
+          "index": 15,
+          "honest_value": 1,
+          "honest_us": 14587.0,
+          "worst_value": 253,
+          "worst_us": 31479.0,
+          "own_amplification": 2.158,
+          "ceiling_value": 253
+        },
+        {
+          "index": 16,
+          "honest_value": 2,
+          "honest_us": 14584.0,
+          "worst_value": 253,
+          "worst_us": 31426.0,
+          "own_amplification": 2.155,
+          "ceiling_value": 253
+        },
+        {
+          "index": 17,
+          "honest_value": 1,
+          "honest_us": 14656.0,
+          "worst_value": 253,
+          "worst_us": 31849.0,
+          "own_amplification": 2.173,
+          "ceiling_value": 253
+        },
+        {
+          "index": 18,
+          "honest_value": 3,
+          "honest_us": 14610.0,
+          "worst_value": 253,
+          "worst_us": 31784.0,
+          "own_amplification": 2.175,
+          "ceiling_value": 253
+        },
+        {
+          "index": 19,
+          "honest_value": 1,
+          "honest_us": 14662.0,
+          "worst_value": 253,
+          "worst_us": 31555.0,
+          "own_amplification": 2.152,
+          "ceiling_value": 253
+        }
+      ]
+    }
+  },
+  "baseline_context": {
+    "openssl": "OpenSSL 3.6.3 9 Jun 2026",
+    "baselines_us": {
+      "rsa2048": 13.3,
+      "ecdsap256": 48.5
+    },
+    "l1_honest_us": 2440.5,
+    "l1_worst_us": 3773.0,
+    "l1_honest_ratios": {
+      "rsa2048": 183.5,
+      "ecdsap256": 50.3
+    },
+    "l1_worst_ratios": {
+      "rsa2048": 283.7,
+      "ecdsap256": 77.8
+    }
+  }
+}
