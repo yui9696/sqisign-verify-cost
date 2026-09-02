@@ -129,6 +129,30 @@ author's machine this session:
   (both length bytes held equal), showing cost tracks the public bytes, not the
   key: the main cluster spreads ~1–3%.
 
+## Round 3 closes this by construction
+
+**The byte this project measures no longer exists.**
+
+SQIsign's round-3 release (2026-09-01, `6d01770`, tag `nist-v3`, spec v3.0) removed both
+`backtracking` and `two_resp_length` from the signature, along with the entire
+`two_response_isogeny_verify` stage. Every isogeny-chain length in round-3 verification is
+now a compile-time constant (`CHALLENGE_BITS + EC_EXTRA_TORSION` and `RESPONSE_BITS`);
+`protocols_verify` no longer derives any loop bound from signature data at all.
+
+The reason is cryptographic rather than a response to cost: spec v3.0 §1.4(6) shortened
+the challenge isogeny to length λ and made the response odd-degree, so challenge and
+response can no longer share a common suffix — and those two bytes existed only to
+describe that shared suffix. Removing it removed them.
+
+So the amplification curves below are a measurement of round 2, and the surface they
+measure is **closed by construction in round 3**, not merely mitigated. The mitigation
+suggested in the next section is what the round-3 design does structurally.
+
+Re-measuring the round-3 verifier for any residual input-dependent cost is the obvious
+follow-up; the harness carries over unchanged apart from the parameter-set names
+(`lvl1/3/5` → `p324_3`/`p500_27`/`p664_17`) and the reversed argument order of
+`crypto_sign_verify`.
+
 ## Mitigation
 
 Simple and worth stating: a verifier can **bound the work at the honest
