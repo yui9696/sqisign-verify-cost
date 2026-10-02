@@ -1,9 +1,15 @@
 # sqisign-verify-cost
 
 A **verification-cost / DoS-surface profiler** for [SQIsign](https://sqisign.org),
-the NIST round-3 isogeny signature. It measures how much CPU an attacker can
-make a *verifier* spend as a function of attacker-controllable signature bytes,
-and ships the measured cost-amplification curves.
+the isogeny signature in NIST's additional-signatures process. It measures how
+much CPU an attacker can make a *verifier* spend as a function of
+attacker-controllable signature bytes, and ships the measured cost-amplification
+curves.
+
+> **Scope: round 2 only.** Every number here was measured on the **round-2**
+> reference (commit `dd133d7`). The byte it measures, `two_resp_length`, was
+> removed in round 3 (spec v3.0, 2026-09-01), so this surface does not exist in
+> the round-3 verifier. See [Round 3 closes this by construction](#round-3-closes-this-by-construction).
 
 It is the *cost* counterpart to the author's
 [`sqisign-conformance`](https://github.com/yui9696) project (which measures
@@ -14,7 +20,7 @@ in stdlib Python.
 > ## What this is, and what it is NOT
 >
 > - This **is** a measurement of a resource-cost property of the SQIsign
->   **reference** implementation (commit `dd133d7`): a single public,
+>   **round-2 reference** implementation (commit `dd133d7`): a single public,
 >   attacker-chosen signature byte (`two_resp_length`) sets an isogeny-chain
 >   loop bound, and verification cost scales with it.
 > - This is **NOT a vulnerability, a break, an exploit, or an attack on the
@@ -144,7 +150,7 @@ the challenge isogeny to length λ and made the response odd-degree, so challeng
 response can no longer share a common suffix — and those two bytes existed only to
 describe that shared suffix. Removing it removed them.
 
-So the amplification curves below are a measurement of round 2, and the surface they
+So the amplification curves above are a measurement of round 2, and the surface they
 measure is **closed by construction in round 3**, not merely mitigated. The mitigation
 suggested in the next section is what the round-3 design does structurally.
 
